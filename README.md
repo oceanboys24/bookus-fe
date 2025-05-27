@@ -6,9 +6,9 @@
 - **/Hooks** # Custom React hooks
 - **/Types** # Shared TypeScript types and interfaces
 
-## ✍️ Naming Conventions
+## ✍️ Naming Convention
 
-### 📁 Folder & File Names
+### 📁 Folder & File Name
 
 - Use **PascalCase** for all folders and files related to components, pages, layouts, and hooks.
   - ✅ `LoginForm`, `UserProfile`, `HomePage`
@@ -39,7 +39,7 @@
    ...
   };
   ```
-# 📝 Commit Message Guidelines
+# 📝 Commit Messages Guidelines
 
 To keep our git history clean and understandable, please follow these commit message conventions:
 
