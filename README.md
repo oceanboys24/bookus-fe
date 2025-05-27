@@ -39,7 +39,7 @@
    ...
   };
   ```
-# 📝 Commit Message Guidelines
+# 📝 Commit Messages Guidelines
 
 To keep our git history clean and understandable, please follow these commit message conventions:
 
