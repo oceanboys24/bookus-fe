@@ -1,4 +1,4 @@
-## 📁 Project Structure
+## 📁 Project Structures
 
 - **/Assets** # Static assets like images, fonts, icons
 - **/Components** # Reusable UI components (Buttons, Cards, Modals, etc.)
