@@ -24,7 +24,7 @@
   export default UserCard;
   ```
 
-### ⚛️ Variable, Function and Custom Hooks
+### ⚛️ Variables, Functions and Custom Hooks
 
 - Variable and Function names must use **camelCase**:
   ```tsx
