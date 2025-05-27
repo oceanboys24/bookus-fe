@@ -61,8 +61,6 @@ To keep our git history clean and understandable, please follow these commit mes
 | docs     | Documentation only                      | docs(readme): update usage    |
 | style    | Code style changes (formatting, spaces) | style(header): fix indentation|
 | refactor | Code refactoring without feature change | refactor(api): simplify fetch |
-| test     | Adding or fixing tests                  | test(auth): add login tests   |
-| chore    | Misc tasks (build, deps, tooling)      | chore(deps): update packages  |
 
 ---
 
