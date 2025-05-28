@@ -3,7 +3,7 @@ import { Plus } from "lucide-react";
 
 import { Label } from "../../../Components/ui/label";
 import { Input } from "../../../Components/ui/input";
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Dialog,
   DialogContent,
