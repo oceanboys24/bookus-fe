@@ -1,4 +1,3 @@
-import { Button } from "@/Components/ui/button";
 import {
   Table,
   TableBody,
@@ -8,9 +7,9 @@ import {
   TableHeader,
   TableRow,
 } from "@/Components/ui/table";
-import { DeleteIcon, Edit } from "lucide-react";
-import AddSchedule from "../Components/AddSchedule";
-
+import AddSchedule from "./AddSchedule";
+import EditSchedule from "./EditSchedule";
+import DeleteButton from "@/Components/DeleteButton";
 const scheduleList = [
   {
     nameBus: "Bus001",
@@ -87,13 +86,9 @@ function Schedule() {
                 <TableCell>{schedule.departure}</TableCell>
                 <TableCell>{schedule.arrival}</TableCell>
                 <TableCell>
-                  <div className="space-x-2">
-                    <Button>
-                      <Edit />
-                    </Button>
-                    <Button className="bg-red-500">
-                      <DeleteIcon />
-                    </Button>
+                  <div className="flex gap-2">
+                    <EditSchedule />
+                    <DeleteButton />
                   </div>
                 </TableCell>
               </TableRow>

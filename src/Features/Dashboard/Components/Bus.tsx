@@ -1,7 +1,4 @@
-import { DeleteIcon, Edit, Plus } from "lucide-react";
-
-import { useState } from "react";
-import AddBus from "./AddBus";
+import DeleteButton from "@/Components/DeleteButton";
 import {
   Table,
   TableBody,
@@ -11,7 +8,9 @@ import {
   TableHeader,
   TableRow,
 } from "@/Components/ui/table";
-import { Button } from "@/Components/ui/button";
+import { useState } from "react";
+import AddBuss from "./AddBus";
+import EditBus from "./EditBus";
 
 type BusType = {
   name: string;
@@ -29,7 +28,7 @@ function Bus() {
     <div className="p-5">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold">Bus</h1>
-        <AddBus onAdd={addBus} />
+        <AddBuss onAdd={addBus} />
       </div>
       <Table>
         {/* <TableCaption>A list of your recent invoices.</TableCaption> */}
@@ -46,13 +45,9 @@ function Bus() {
               <TableCell className="font-medium">{bus.name}</TableCell>
               <TableCell className="text-right">{bus.seats}</TableCell>
               <TableCell>
-                <div className="space-x-2">
-                  <Button>
-                    <Edit />
-                  </Button>
-                  <Button className="bg-red-500">
-                    <DeleteIcon />
-                  </Button>
+                <div className="flex gap-2">
+                  <EditBus />
+                  <DeleteButton />
                 </div>
               </TableCell>
             </TableRow>
