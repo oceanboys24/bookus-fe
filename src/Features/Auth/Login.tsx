@@ -1,4 +1,3 @@
-import React from "react";
 import CardLogin from "./Components/CardLogin";
 
 function LoginComponent() {

@@ -1,8 +1,7 @@
-import React from "react";
 import Schedule from "./Components/Schedule";
 import Bus from "./Components/Bus";
 
-function Dasboard() {
+function DasboardComponent() {
   return (
     <div className="block md:grid grid-cols-[2fr_1fr] md:gap-4 mt-6">
       <Schedule />
@@ -11,4 +10,4 @@ function Dasboard() {
   );
 }
 
-export default Dasboard;
+export default DasboardComponent;
