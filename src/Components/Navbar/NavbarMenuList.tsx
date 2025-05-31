@@ -13,3 +13,4 @@ export const NAVBAR_LINK: NavbarLink[] = [
     path: "/about",
   },
 ];
+

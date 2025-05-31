@@ -1,4 +1,4 @@
-## 📁 Project Structure
+## 📁 Project Structures
 
 - **/Assets** # Static assets like images, fonts, icons
 - **/Components** # Reusable UI components (Buttons, Cards, Modals, etc.)
@@ -6,9 +6,9 @@
 - **/Hooks** # Custom React hooks
 - **/Types** # Shared TypeScript types and interfaces
 
-## ✍️ Naming Conventions
+## ✍️ Naming Convention
 
-### 📁 Folder & File Names
+### 📁 Folder & File Name
 
 - Use **PascalCase** for all folders and files related to components, pages, layouts, and hooks.
   - ✅ `LoginForm`, `UserProfile`, `HomePage`
@@ -24,7 +24,7 @@
   export default UserCard;
   ```
 
-### ⚛️ Variable, Function and Custom Hooks
+### ⚛️ Variables, Functions and Custom Hooks
 
 - Variable and Function names must use **camelCase**:
   ```tsx
@@ -39,7 +39,7 @@
    ...
   };
   ```
-# 📝 Commit Message Guidelines
+# 📝 Commit Messages Guidelines
 
 To keep our git history clean and understandable, please follow these commit message conventions:
 
@@ -61,8 +61,6 @@ To keep our git history clean and understandable, please follow these commit mes
 | docs     | Documentation only                      | docs(readme): update usage    |
 | style    | Code style changes (formatting, spaces) | style(header): fix indentation|
 | refactor | Code refactoring without feature change | refactor(api): simplify fetch |
-| test     | Adding or fixing tests                  | test(auth): add login tests   |
-| chore    | Misc tasks (build, deps, tooling)      | chore(deps): update packages  |
 
 ---
 
